@@ -48,6 +48,8 @@ public class Driver extends BaseModel {
 
     private boolean isActive;
 
+    private boolean isAvailable;
+
     @Column
     private String phoneNumber;
     //  in !:N default fetch mode is eager
